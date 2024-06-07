@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Find Your Ideal Career Course</h1>
+        <form id="career-quiz-form">
+            <div class="question">
+                <label for="education">What is your educational background?</label>
+                <select id="education" name="education">
+                    <option value="Engineering or science graduate">Engineering or science graduate</option>
+                    <option value="Three-year diploma holder">Three-year diploma holder</option>
+                    <option value="Commerce graduate">Commerce graduate</option>
+                    <option value="Arts graduate">Arts graduate</option>
+                    <option value="High school graduate">High school graduate</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="interest">What is your main interest?</label>
+                <select id="interest" name="interest">
+                    <option value="Web Development">Web Development</option>
+                    <option value="Data Analysis">Data Analysis</option>
+                    <option value="Software Testing">Software Testing</option>
+                    <option value="Machine Learning">Machine Learning</option>
+                    <option value="Project Management">Project Management</option>
+                    <option value="Accounting">Accounting</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Teaching">Teaching</option>
+                    <option value="Health and Wellness">Health and Wellness</option>
+                    <option value="Financial Markets">Financial Markets</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="activity">What activities do you enjoy?</label>
+                <select id="activity" name="activity">
+                    <option value="Front-End Development">Front-End Development</option>
+                    <option value="Back-End Development">Back-End Development</option>
+                    <option value="Exploratory Data Analysis (EDA)">Exploratory Data Analysis (EDA)</option>
+                    <option value="Test Planning and Strategy">Test Planning and Strategy</option>
+                    <option value="Automation Testing">Automation Testing</option>
+                    <option value="Team Coordination and Leadership">Team Coordination and Leadership</option>
+                    <option value="Financial Reporting and Analysis">Financial Reporting and Analysis</option>
+                    <option value="Planning and Executing Marketing Campaigns">Planning and Executing Marketing Campaigns</option>
+                    <option value="Teaching and Educating Children">Teaching and Educating Children</option>
+                    <option value="Conducting Yoga Sessions">Conducting Yoga Sessions</option>
+                    <option value="Market Analysis and Trading">Market Analysis and Trading</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="skill">What skills do you possess?</label>
+                <select id="skill" name="skill">
+                    <option value="Coding">Coding</option>
+                    <option value="Data Analysis">Data Analysis</option>
+                    <option value="Testing">Testing</option>
+                    <option value="Project Management">Project Management</option>
+                    <option value="Team Collaboration">Team Collaboration</option>
+                    <option value="Accounting">Accounting</option>
+                    <option value="Marketing">Marketing</option>
+                    <option value="Teaching">Teaching</option>
+                    <option value="Yoga">Yoga</option>
+                    <option value="Financial Trading">Financial Trading</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="decision-style">What is your decision-making style?</label>
+                <select id="decision-style" name="decision-style">
+                    <option value="Analytical">Analytical</option>
+                    <option value="Intuitive">Intuitive</option>
+                    <option value="Consultative">Consultative</option>
+                    <option value="Collaborative">Collaborative</option>
+                    <option value="Data-Driven">Data-Driven</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label for="stability">How important is job stability to you?</label>
+                <select id="stability" name="stability">
+                    <option value="Very Important">Very Important</option>
+                    <option value="Somewhat Important">Somewhat Important</option>
+                    <option value="Not Important">Not Important</option>
+                </select>
+            </div>
+
+            <button type="submit">Find My Career</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
